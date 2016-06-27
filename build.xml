@@ -7,6 +7,9 @@
     
     <property name="dist" location="${basedir}/dist" />
 	
+    <target name="test" depends="package">
+    </target>
+
     <target name="all" depends="compile15">
     </target>
     
