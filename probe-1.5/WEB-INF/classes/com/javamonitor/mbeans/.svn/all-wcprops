@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/89/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans
+END
+Threading.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/37/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/Threading.java
+END
+ServerJetty.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/65/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ServerJetty.java
+END
+Server.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/89/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/Server.java
+END
+ServerJBoss.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/86/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ServerJBoss.java
+END
+ServerResin.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/89/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ServerResin.java
+END
+ThreadingMBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/32/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ThreadingMBean.java
+END
+DNSCachePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/89/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/DNSCachePolicy.java
+END
+ServerMBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/65/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ServerMBean.java
+END
+ServerSpringDM.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/35/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ServerSpringDM.java
+END
+ServerGlassfish.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/89/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ServerGlassfish.java
+END
+ServerJetty5.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/65/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ServerJetty5.java
+END
+DNSCachePolicyMBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/43/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/DNSCachePolicyMBean.java
+END
+ServerOpenfire.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/65/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ServerOpenfire.java
+END
+ServerTomcat.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/88/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/mbeans/ServerTomcat.java
+END

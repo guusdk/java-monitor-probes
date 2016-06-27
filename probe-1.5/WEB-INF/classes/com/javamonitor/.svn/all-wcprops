@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/90/trunk/probe-1.5/WEB-INF/classes/com/javamonitor
+END
+Collector.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/90/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/Collector.java
+END
+CollectorServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/74/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/CollectorServlet.java
+END
+JmxHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/89/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/JmxHelper.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/45/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/Item.java
+END
+JavaMonitorCollector.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/89/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/JavaMonitorCollector.java
+END
+OnHoldException.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/probe-1.5/WEB-INF/classes/com/javamonitor/OnHoldException.java
+END
