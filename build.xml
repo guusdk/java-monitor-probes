@@ -24,5 +24,9 @@
         <war destfile="${dist}/java-monitor.war" webxml="${web}/web.xml" >
             <classes dir="${src}" />
         </war>
+        <jar destfile="${dist}/java-monitor-plugin.jar">
+            <fileset dir="${web}" includes="**/*.class,**/uuid,**/pushUrl"/>
+            <fileset dir="${basedir}/openfire"/>
+        </jar>
     </target>
 </project>
