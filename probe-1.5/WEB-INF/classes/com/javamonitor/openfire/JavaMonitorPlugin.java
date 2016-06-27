@@ -80,6 +80,7 @@ public class JavaMonitorPlugin implements Plugin {
         }
 
         try {
+            ((ConnectionManagerImpl)XMPPServer.getInstance().getConnectionManager()).getSocketAcceptor();
             client = new CoreThreadPool(((ConnectionManagerImpl) XMPPServer
                     .getInstance().getConnectionManager()).getSocketAcceptor());
             client.start();

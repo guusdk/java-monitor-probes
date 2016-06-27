@@ -2,9 +2,11 @@ package com.javamonitor.openfire.mbeans;
 
 import java.util.concurrent.ThreadPoolExecutor;
 
-import org.apache.mina.common.ExecutorThreadModel;
+import org.apache.mina.filter.executor.ExecutorFilter;
 import org.apache.mina.management.MINAStatCollector;
-import org.apache.mina.transport.socket.nio.SocketAcceptor;
+import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
+
+import static org.jivesoftware.openfire.spi.ConnectionManagerImpl.EXECUTOR_FILTER_NAME;
 
 /**
  * A core thread pool mbean implementation.
@@ -23,14 +25,13 @@ public class CoreThreadPool implements CoreThreadPoolMBean {
      * @param acceptor
      *            The pool to attach to.
      */
-    public CoreThreadPool(final SocketAcceptor acceptor) {
+    public CoreThreadPool(final NioSocketAcceptor acceptor) {
         if (acceptor == null) {
             throw new NullPointerException("acceptor is null");
         }
 
-        final ExecutorThreadModel threadModel = (ExecutorThreadModel) acceptor
-                .getDefaultConfig().getThreadModel();
-        this.executor = (ThreadPoolExecutor) threadModel.getExecutor();
+        final ExecutorFilter executorFilter = (ExecutorFilter) acceptor.getFilterChain().get(EXECUTOR_FILTER_NAME);
+        this.executor = (ThreadPoolExecutor) executorFilter.getExecutor();
         this.mina = new MINAStatCollector(acceptor);
     }
 
