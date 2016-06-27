@@ -1,0 +1,8 @@
+# Build artificats
+dist
+*.class
+
+# IntelliJ Metadata files
+.idea
+*.iml
+.ant-targets-build.xml
